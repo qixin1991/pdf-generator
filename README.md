@@ -30,7 +30,6 @@ compile 'com.itextpdf:forms:7.1.0'
 compile 'com.itextpdf:pdfa:7.1.0'
 compile 'com.itextpdf:barcodes:7.1.0'
 compile 'com.itextpdf:hyph:7.1.0'
-compile 'com.itextpdf:barcodes:7.1.0'
 compile 'com.itextpdf:font-asian:7.1.0'
 compile 'com.itextpdf:html2pdf:2.0.0'
 ```
