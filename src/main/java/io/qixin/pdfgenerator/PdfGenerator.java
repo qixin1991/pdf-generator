@@ -28,7 +28,7 @@ public class PdfGenerator {
     public static void generatePdfWithHtml(String htmlStr, OutputStream os, PageSize pageSize) throws IOException {
         PdfWriter writer = new PdfWriter(os);
         PdfDocument pdfDoc = new PdfDocument(writer);
-        pdfDoc.setDefaultPageSize(PdfPageSize.A3);
+        pdfDoc.setDefaultPageSize(pageSize);
         // Set media device description details
         MediaDeviceDescription mediaDeviceDescription = new MediaDeviceDescription(MediaType.SCREEN);
         mediaDeviceDescription.setWidth(pageSize.getWidth());
