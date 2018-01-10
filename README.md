@@ -1,3 +1,5 @@
+[![](https://jitpack.io/v/qixin1991/pdf-generator.svg)](https://jitpack.io/#qixin1991/pdf-generator)
+
 支持中文转换，使用之前将字体文件放入`/resources/fonts`目录下.
 
 # Usage
